@@ -22,7 +22,7 @@
  */
 
 #include "ONScripterLabel.h"
-#include "BimanMaskGain.h"
+#include "ONSMaskGain.h"
 #if defined(PSP)
 #include "PSPPmfPlayer.h"
 #endif
@@ -120,7 +120,7 @@ void ONScripterLabel::alphaBlend( SDL_Surface *mask_surface,
             for ( j=0 ; j<rect.w ; j++ ){
                 mask = *(mask_buffer + (rect.x+j)%mask_surface->w) & fmt->Bmask;
                 if (mask_gain != 1) {
-                    mask2 = bimanMaskWeight(mask_value, mask, fmt->Bmask, mask_gain);
+                    mask2 = onsPspMaskWeight(mask_value, mask, fmt->Bmask, mask_gain);
                 }
                 else if ( mask_value > mask ){
                     mask2 = mask_value - mask;

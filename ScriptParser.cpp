@@ -23,7 +23,7 @@
 
 #include "ScriptParser.h"
 #ifdef PSP
-#include "BimanSavedata.h"
+#include "PSPSavedata.h"
 #endif
 
 #define VERSION_STR1 "ONScripter"
@@ -524,11 +524,11 @@ void ScriptParser::allocFileIOBuf()
 int ScriptParser::saveFileIOBuf( const char *filename, int offset )
 {
 #ifdef PSP
-    char savedata[512];int mapped=bimanSavePath(archive_path,filename,savedata,sizeof savedata);
+    char savedata[512];int mapped=onsPspSavePath(archive_path,filename,savedata,sizeof savedata);
     if(mapped<0)return -1;
     if(mapped>0){
-        if(offset<0 || offset>file_io_buf_ptr || bimanPrepare(archive_path,savedata)!=0)return -1;
-        return bimanAtomicWrite(savedata,file_io_buf+offset,file_io_buf_ptr-offset);
+        if(offset<0 || offset>file_io_buf_ptr || onsPspPrepare(archive_path,savedata)!=0)return -1;
+        return onsPspAtomicWrite(savedata,file_io_buf+offset,file_io_buf_ptr-offset);
     }
 #endif
     FILE *fp;
@@ -847,11 +847,11 @@ int ScriptParser::readEffect( EffectLink *effect )
 FILE *ScriptParser::fopen(const char *path, const char *mode)
 {
 #ifdef PSP
-    char savedata[512];int mapped=bimanSavePath(archive_path,path,savedata,sizeof savedata);
+    char savedata[512];int mapped=onsPspSavePath(archive_path,path,savedata,sizeof savedata);
     if(mapped<0)return NULL;
     if(mapped>0){
-        if(mode[0]=='r')return bimanRead(savedata);
-        if(bimanPrepare(archive_path,savedata)!=0)return NULL;
+        if(mode[0]=='r')return onsPspRead(savedata);
+        if(onsPspPrepare(archive_path,savedata)!=0)return NULL;
         return ::fopen(savedata,mode);
     }
 #endif

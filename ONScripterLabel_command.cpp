@@ -23,8 +23,8 @@
 
 #include "ONScripterLabel.h"
 #ifdef PSP
-#include "BimanSavedata.h"
-#include "BimanDescriptionPSP.h"
+#include "PSPSavedata.h"
+#include "PSPSavedataDescription.h"
 #endif
 
 #if defined(MACOSX) && (SDL_COMPILEDVERSION >= 1208)
@@ -806,12 +806,12 @@ int ONScripterLabel::savescreenshotCommand()
     const char *buf = script_h.readStr();
     char filename[256];
 #ifdef PSP
-    char savedata[512];int mapped=bimanSavePath(archive_path,buf,savedata,sizeof savedata);
+    char savedata[512];int mapped=onsPspSavePath(archive_path,buf,savedata,sizeof savedata);
     if(mapped){
         getret_int=-1;
-        if(mapped>0 && bimanPrepare(archive_path,savedata,false)==0){
+        if(mapped>0 && onsPspPrepare(archive_path,savedata,false)==0){
             char tmp[600];snprintf(tmp,sizeof tmp,"%s.TMP",savedata);
-            if(SDL_SaveBMP(screenshot_surface,tmp)==0)getret_int=bimanCommit(savedata,tmp);
+            if(SDL_SaveBMP(screenshot_surface,tmp)==0)getret_int=onsPspCommit(savedata,tmp);
                     }
                     pspDiagLog("SAVE_DESC thumbnail rc=%d errno=%d",getret_int,errno);
                     return RET_CONTINUE;
@@ -864,7 +864,7 @@ int ONScripterLabel::savegameCommand()
 #ifdef PSP
         pspDiagLog("SAVE_DESC payload slot=%d rc=%d",no,getret_int);
         if(getret_int==0 && no>=1 && no<=8)
-            getret_int=bimanWriteDescription(archive_path,no,current_text_buffer->buffer2,current_text_buffer->buffer2_count);
+            getret_int=onsPspWriteDescription(archive_path,no,current_text_buffer->buffer2,current_text_buffer->buffer2_count);
 #endif
     }
 

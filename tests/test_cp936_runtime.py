@@ -112,7 +112,7 @@ class Cp936RuntimeTest(unittest.TestCase):
             )
             exe = tmp / "codec_harness.exe"
             command = (
-                f'cl /nologo /DBIMAN_CN_CP936 /I"{REPO}" '
+                f'cl /nologo /DONS_CN_CP936 /I"{REPO}" '
                 f'"{REPO / "sjis2utf16.cpp"}" "{harness}" /Fe:"{exe}"'
             )
             build = run_msvc(command, REPO)

@@ -291,7 +291,7 @@ int ONScripterLabel::doEffect( int effect_no, AnimationInfo *anim, int effect_im
         alphaBlend( effect->anim.image_surface, ALPHA_BLEND_CROSSFADE_MASK, 256 * effect_counter * 2 / effect->duration, &dirty_rect.bounding_box );
         break;
 
-      case 20: // Biman h02 QLIE cloud rule, observed $02 gain=4
+      case 20: // Gain-controlled rule-mask transition (gain=4)
         alphaBlend( effect->anim.image_surface, ALPHA_BLEND_CROSSFADE_MASK, 256 * effect_counter * 5 / effect->duration, &dirty_rect.bounding_box, 4 );
         break;
 

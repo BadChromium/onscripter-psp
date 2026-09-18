@@ -23,7 +23,7 @@
 
 #include "ONScripterLabel.h"
 #ifdef PSP
-#include "BimanSavedata.h"
+#include "PSPSavedata.h"
 #endif
 
 #if defined(LINUX) || defined(MACOSX)
@@ -114,7 +114,7 @@ void ONScripterLabel::searchSaveFile( SaveFileInfo &save_file_info, int no )
 	save_file_info.minute = tm.minute;
 #elif defined(PSP)
     char relative[32];snprintf(relative,sizeof relative,"save%d.dat",no);
-    int mapped=bimanSavePath(archive_path,relative,file_name,sizeof file_name);
+    int mapped=onsPspSavePath(archive_path,relative,file_name,sizeof file_name);
     if(mapped<0){save_file_info.valid=false;return;}
     if(!mapped)snprintf(file_name,sizeof file_name,"%s%s",archive_path,relative);
     SceIoStat buf;

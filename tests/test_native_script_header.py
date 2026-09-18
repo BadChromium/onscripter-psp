@@ -90,7 +90,7 @@ class NativeScriptHeaderTest(unittest.TestCase):
         self.assertIn("screen_width  = script_h.script_width;", parser)
         self.assertIn("script_h.screen_size != ScriptHandler::SCREEN_SIZE_SCRIPT", label)
         self.assertIn("screen_width   = screen_width  * 9 / 8;", label)
-        self.assertIn("-DBIMAN_CN_CP936", makefile)
+        self.assertIn("-DONS_CN_CP936", makefile)
 
 
 if __name__ == "__main__":

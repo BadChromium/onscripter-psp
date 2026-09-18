@@ -1,4 +1,5 @@
 #include "PSPDiagnostic.h"
+#include "PSPGameConfig.h"
 #include <pspkernel.h>
 #include <pspiofilemgr.h>
 #include <stdio.h>
@@ -41,7 +42,7 @@ extern "C" void pspDiagInit(void)
     char cwd[768] = {0};
     if (getcwd(cwd, sizeof(cwd))) {
         if (!strncmp(cwd, "disc0:", 6) || !strncmp(cwd, "umd0:", 5))
-            snprintf(log_path, sizeof(log_path), "ms0:/PSP/BIMAN25_ISO.log");
+            snprintf(log_path, sizeof(log_path), "ms0:/PSP/%s_ISO.log", onsPspGameId);
         else snprintf(log_path, sizeof(log_path), "%s/PMF_DIAG.txt", cwd);
     }
     log_lock = sceKernelCreateSema("pmf_diag_log", 0, 1, 1, NULL);

@@ -24,15 +24,15 @@ return 0;}''',encoding='ascii')
    src.write_text(r'''#include "PSPPmfPath.h"
 #include <string.h>
 int main(){char out[256];
-if(!pspPmfResolvePath(out,sizeof(out),"movie\\ha01_01.pmf","ms0:/PSP/GAME/BIMAN"))return 1;
-if(strcmp(out,"ms0:/PSP/GAME/BIMAN/movie/ha01_01.pmf"))return 2;
+if(!pspPmfResolvePath(out,sizeof(out),"movie\\ha01_01.pmf","ms0:/PSP/GAME/TESTGAME"))return 1;
+if(strcmp(out,"ms0:/PSP/GAME/TESTGAME/movie/ha01_01.pmf"))return 2;
 if(!pspPmfResolvePath(out,sizeof(out),"movie/A.PMF","umd0:"))return 3;
 if(strcmp(out,"umd0:/movie/A.PMF"))return 4;
-if(!pspPmfResolvePath(out,sizeof(out),"movie/A.PMF","ms0:/PSP/GAME/BIMAN/"))return 5;
-if(strcmp(out,"ms0:/PSP/GAME/BIMAN/movie/A.PMF"))return 6;
+if(!pspPmfResolvePath(out,sizeof(out),"movie/A.PMF","ms0:/PSP/GAME/TESTGAME/"))return 5;
+if(strcmp(out,"ms0:/PSP/GAME/TESTGAME/movie/A.PMF"))return 6;
 if(!pspPmfResolvePath(out,sizeof(out),"ef0:/Movie/A.PMF",0))return 7;
 if(strcmp(out,"ef0:/Movie/A.PMF"))return 8;
-if(!pspPmfResolvePath(out,sizeof(out),"/Movie/A.PMF","ms0:/PSP/GAME/BIMAN"))return 9;
+if(!pspPmfResolvePath(out,sizeof(out),"/Movie/A.PMF","ms0:/PSP/GAME/TESTGAME"))return 9;
 if(strcmp(out,"ms0:/Movie/A.PMF"))return 10;
 if(pspPmfResolvePath(out,sizeof(out),"movie/A.PMF",0))return 11;
 if(pspPmfResolvePath(out,sizeof(out),"movie/A.PMF","relative"))return 12;

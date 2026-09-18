@@ -2,7 +2,7 @@
 
 ## Script Encoding And Header
 
-This engine build uses `-DBIMAN_CN_CP936` in `Makefile.PSP`. Scripts are read as CP936 bytes; do not transcode `0.txt` to Shift-JIS.
+This engine build uses `-DONS_CN_CP936` in `Makefile.PSP`. Scripts are read as CP936 bytes; do not transcode `0.txt` to Shift-JIS.
 
 The native chapter header is:
 

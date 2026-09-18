@@ -26,7 +26,7 @@
 extern unsigned short convONSCodeToUTF16( unsigned short in );
 extern unsigned short convONSSingleByteToUTF16( unsigned char in );
 
-#if defined(BIMAN_CN_CP936)
+#if defined(ONS_CN_CP936)
 static unsigned short onsTextCode( const char *x )
 {
     const unsigned char *p = (const unsigned char *)x;
@@ -631,7 +631,7 @@ int ONScripterLabel::processText()
                         script_h.getStringBuffer()[ string_buffer_offset ] <= '9' )
                     string_buffer_offset++;
                 while (script_h.getStringBuffer()[ string_buffer_offset ] == ' ' ||
-                       script_h.getStringBuffer()[ string_buffer_offset ] == '\t') string_buffer_offset++;
+                       script_h.getStringBuffer()[ string_buffer_offset ] == '	') string_buffer_offset++;
             }
         }
         else if ( script_h.getStringBuffer()[ string_buffer_offset + 1 ] &&
@@ -657,7 +657,7 @@ int ONScripterLabel::processText()
 
     while( (!(script_h.getEndStatus() & ScriptHandler::END_1BYTE_CHAR) &&
             script_h.getStringBuffer()[ string_buffer_offset ] == ' ') ||
-           script_h.getStringBuffer()[ string_buffer_offset ] == '\t' ) string_buffer_offset ++;
+           script_h.getStringBuffer()[ string_buffer_offset ] == '	' ) string_buffer_offset ++;
 
     char ch = script_h.getStringBuffer()[string_buffer_offset];
     if ( IS_TWO_BYTE(ch) ){ // two-byte text
@@ -747,7 +747,7 @@ int ONScripterLabel::processText()
                 }
                 sentence_font.wait_time = t;
                 while (script_h.getStringBuffer()[ string_buffer_offset ] == ' ' ||
-                       script_h.getStringBuffer()[ string_buffer_offset ] == '\t') string_buffer_offset++;
+                       script_h.getStringBuffer()[ string_buffer_offset ] == '	') string_buffer_offset++;
             }
         }
         else if ( script_h.getStringBuffer()[ string_buffer_offset ] == 'w' ||
@@ -763,7 +763,7 @@ int ONScripterLabel::processText()
                 string_buffer_offset++;
             }
             while (script_h.getStringBuffer()[ string_buffer_offset ] == ' ' ||
-                   script_h.getStringBuffer()[ string_buffer_offset ] == '\t') string_buffer_offset++;
+                   script_h.getStringBuffer()[ string_buffer_offset ] == '	') string_buffer_offset++;
             if ( skip_flag || draw_one_page_flag || ctrl_pressed_status ){
                 return RET_CONTINUE | RET_NOREAD;
             }

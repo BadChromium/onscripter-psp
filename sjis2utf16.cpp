@@ -1,6 +1,6 @@
 #include <stddef.h>
 
-#if defined(BIMAN_CN_CP936)
+#if defined(ONS_CN_CP936)
 #include "cp936_utf16_table.h"
 #else
 /* sjis 0x8140 - 0xfcfc */
@@ -11398,7 +11398,7 @@ static void initSJISTable()
 
 bool onsIsTwoByteLead( unsigned char ch )
 {
-#if defined(BIMAN_CN_CP936)
+#if defined(ONS_CN_CP936)
     return ch >= 0x81 && ch <= 0xfe;
 #else
     return ( (ch & 0xe0) == 0xe0 || (ch & 0xe0) == 0x80 );
@@ -11407,7 +11407,7 @@ bool onsIsTwoByteLead( unsigned char ch )
 
 bool onsIsTwoByteTrail( unsigned char ch )
 {
-#if defined(BIMAN_CN_CP936)
+#if defined(ONS_CN_CP936)
     return ch >= 0x40 && ch <= 0xfe && ch != 0x7f;
 #else
     return ch != 0x0a && ch != '\0';
@@ -11416,14 +11416,14 @@ bool onsIsTwoByteTrail( unsigned char ch )
 
 void initONSCodeToUTF16()
 {
-#if !defined(BIMAN_CN_CP936)
+#if !defined(ONS_CN_CP936)
     initSJISTable();
 #endif
 }
 
 unsigned short convONSSingleByteToUTF16( unsigned char in )
 {
-#if defined(BIMAN_CN_CP936)
+#if defined(ONS_CN_CP936)
     if ( in == 0x80 ) return 0x20ac;
     return in;
 #else
@@ -11435,7 +11435,7 @@ unsigned short convONSSingleByteToUTF16( unsigned char in )
 
 unsigned short convONSCodeToUTF16( unsigned short in )
 {
-#if defined(BIMAN_CN_CP936)
+#if defined(ONS_CN_CP936)
     if ( in < CP936_UTF16_FIRST || in > CP936_UTF16_LAST )
         return 0;
     return cp936_2_utf16[ in - CP936_UTF16_FIRST ];

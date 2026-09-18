@@ -36,7 +36,7 @@ bool onsIsTwoByteTrail( unsigned char ch );
 
 #define IS_TWO_BYTE(x) onsIsTwoByteLead( (unsigned char)(x) )
 
-#if defined(BIMAN_CN_CP936)
+#if defined(ONS_CN_CP936)
 #define ONS_FULLWIDTH_SPACE_0 ((char)0xa1)
 #define ONS_FULLWIDTH_SPACE_1 ((char)0xa1)
 #define ONS_FULLWIDTH_MINUS_0 ((char)0xa3)

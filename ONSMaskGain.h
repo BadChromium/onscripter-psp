@@ -1,8 +1,8 @@
-#ifndef BIMAN_MASK_GAIN_H
-#define BIMAN_MASK_GAIN_H
+#ifndef ONS_MASK_GAIN_H
+#define ONS_MASK_GAIN_H
 // Called in the framebuffer's blue-channel precision (5 or 8 bits).
-// h02 QLIE $02 reference fit: gain=4, phase spans 0..(max+1)*5.
-static inline unsigned bimanMaskWeight(unsigned phase, unsigned mask,
+// Gain-controlled mask transition; phase spans 0..(maximum+1)*(gain+1).
+static inline unsigned onsPspMaskWeight(unsigned phase, unsigned mask,
                                       unsigned maximum, unsigned gain)
 {
     const unsigned threshold = mask * gain;

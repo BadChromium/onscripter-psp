@@ -1,11 +1,11 @@
-#ifndef BIMAN_SAVE_DESCRIPTION_H
-#define BIMAN_SAVE_DESCRIPTION_H
+#ifndef ONS_SAVE_TEXT_H
+#define ONS_SAVE_TEXT_H
 #include <stddef.h>
 #include <string.h>
 extern unsigned short convONSCodeToUTF16(unsigned short);
 extern unsigned short convONSSingleByteToUTF16(unsigned char);
 // Match gettext: remove rendered line wraps, preserve visible characters.
-static size_t bimanDescriptionUTF8(const char *text,size_t length,char *out,size_t cap){
+static size_t onsPspDescriptionUTF8(const char *text,size_t length,char *out,size_t cap){
  if(!cap)return 0;size_t n=0;
  for(size_t i=0;i<length;){
   unsigned char ch=(unsigned char)text[i++];if(!ch)break;if(ch=='\n'||ch=='\r')continue;

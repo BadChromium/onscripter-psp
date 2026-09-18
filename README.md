@@ -8,14 +8,18 @@ A PSP-focused ONScripter development project targeting the native **480×272** d
 
 This project **uses generative AI (GenAI)** for development, debugging, tests and documentation. Generated code can contain mistakes. Anyone is welcome to improve it through issues, reviews, fixes, tests, documentation and pull requests. Please report reproducible behavior and distinguish physical PSP results from emulator results.
 
-Generalization work remains: the current source retains Biman-named internal helpers, `BIMN90011` savedata identity, eight-slot metadata/artwork expectations, CP936 as the build default, and Biman-named diagnostic output. **Do not deploy it for unrelated games unchanged or share this save namespace between games.** Configurable per-game identity, neutral metadata and generic save initialization are planned; the hardware-tested Biman distribution is not changed by this repository.
+Reusable helpers now use functional names: `PSPSavedata.h` (routing and checked writes), `PSPSavedataDescription.h` (SFO detail updates), `ONSSaveText.h` (text conversion), `PSPSavedataMac.h` (mode-1 integrity), and `ONSMaskGain.h` (mask transitions). None are unused game assets.
+
+Build each game with a unique identity, for example `make -f Makefile.PSP GAME_ID=TEST00001 PSP_EBOOT_TITLE="My Game"`. IDs must be four uppercase letters and five digits. `ONSP00001` is reserved here for engine development; do not share it between distributed games. Run `make -f Makefile.PSP clean` before switching identity or encoding because compiler flags are not tracked as make dependencies.
+
+Generalization is not complete: the current savedata adapter supports eight slots, requires matching `ui/savedata/{CFG,01..08}.SFO` templates plus `ICON_SYSTEM.PNG`, `ICON0.PNG` and `PIC1.PNG`, and its description updater expects the legacy fixed SFO layout. Changing GAME_ID does not generate or update those templates: their embedded save-directory identity must match the build. CP936 remains the default (`ONS_CN_CP936`). Generic metadata generation and broader save-slot support are future work. The accepted originating-game distribution remains untouched.
 
 ## Changes
 
 - Native 480×272 script layout and CP936 text support.
 - PSP PMF playback and GPU integration, voice-buffer lifecycle improvements and background caching.
-- PSP savedata integration (BIMN90011), dialogue controls and diagnostic logging.
-- Disc startup in `disc0:/PSP_GAME/USRDIR`; disc diagnostics write to `ms0:/PSP/BIMAN25_ISO.log`.
+- PSP savedata integration with a configurable game identity, dialogue controls and diagnostic logging.
+- Disc startup in `disc0:/PSP_GAME/USRDIR`; disc diagnostics write to `ms0:/PSP/<GAME_ID>_ISO.log`.
 
 The source snapshot retains diagnostic instrumentation from the hardware-tested build. Startup and warm/cold save loading were reported working on PSP03g with 6.20 PRO-C2 / Inferno. This is not certification for every PSP or a full hardware playthrough. The build requests extended RAM; PSP-1000 is not a supported target at present.
 

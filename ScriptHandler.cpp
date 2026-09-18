@@ -23,7 +23,7 @@
 
 #include "ScriptHandler.h"
 #ifdef PSP
-#include "BimanSavedata.h"
+#include "PSPSavedata.h"
 #endif
 
 #define TMP_SCRIPT_BUF_LEN 4096
@@ -129,11 +129,11 @@ void ScriptHandler::reset()
 FILE *ScriptHandler::fopen( const char *path, const char *mode )
 {
 #ifdef PSP
-    char savedata[512];int mapped=bimanSavePath(archive_path,path,savedata,sizeof savedata);
+    char savedata[512];int mapped=onsPspSavePath(archive_path,path,savedata,sizeof savedata);
     if(mapped<0)return NULL;
     if(mapped>0){
-        if(mode[0]=='r')return bimanRead(savedata);
-        if(bimanPrepare(archive_path,savedata)!=0)return NULL;
+        if(mode[0]=='r')return onsPspRead(savedata);
+        if(onsPspPrepare(archive_path,savedata)!=0)return NULL;
         return ::fopen(savedata,mode);
     }
 #endif

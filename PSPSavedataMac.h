@@ -1,5 +1,5 @@
-#ifndef BIMAN_MODE1_MAC_H
-#define BIMAN_MODE1_MAC_H
+#ifndef PSP_SAVEDATA_MAC_H
+#define PSP_SAVEDATA_MAC_H
 #include <stddef.h>
 #include <string.h>
 #define CBC 0
@@ -7,7 +7,7 @@
 #define ECB 1
 #include "vendor/tiny-aes/aes.c"
 // Fixed, positive, block-aligned SFO inputs; AES-CMAC mode 1, no firmware imports.
-static int bimanMode1Mac(const unsigned char *data,size_t size,unsigned char out[16]){
+static int onsPspMode1Mac(const unsigned char *data,size_t size,unsigned char out[16]){
  if(!data || !out || !size || size%16)return -1;
  static const unsigned char key[16]={152,2,196,230,236,158,158,47,252,99,76,228,47,187,70,104};
  struct AES_ctx ctx;AES_init_ctx(&ctx,key);

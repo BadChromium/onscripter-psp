@@ -1,5 +1,7 @@
 # ONScripter PSP
 
+English | [简体中文](README.zh-CN.md) | [日本語](README.ja.md)
+
 A PSP-focused ONScripter development project targeting the native **480×272** display and **480×270 (270p)** games. Its initial source snapshot comes from the Biman port. This repository contains the engine, local library changes and regression tests, **not the game**. No scenario, artwork, audio, font, save data or ISO is included.
 
 ## Status and contributions

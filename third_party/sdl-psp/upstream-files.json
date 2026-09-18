@@ -1,0 +1,1146 @@
+{
+  "repo": "https://github.com/pspdev/SDL-legacy",
+  "commit": "a1f2392fd46137815ada13ff9fdbae21219f49e5",
+  "files": [
+    {
+      "path": "src/SDL_error_c.h",
+      "sha256": "8ef315b7a8f5660581e5c2ebf5e0a474beffdbc3722b9e5f7b0724a1eaeffdf4"
+    },
+    {
+      "path": "src/SDL_fatal.h",
+      "sha256": "f5cd397ac91512cc034aa0b8180c58aec6d2d23fef4b5edff1f6266e386ca969"
+    },
+    {
+      "path": "src/audio/SDL_audiodev_c.h",
+      "sha256": "f1b46beaf8bc1d6d833969e76143298a16c28ae8e55aa8b3097a296e86dbc533"
+    },
+    {
+      "path": "src/audio/SDL_audiomem.h",
+      "sha256": "be79c5843eb32cdd834134194029cf08768e41a582e30da343df256f7a3eef39"
+    },
+    {
+      "path": "src/audio/SDL_audio_c.h",
+      "sha256": "6775b8592f56d1d793f044398b5307e2c5e0c331d26cbf3280c15bae090f8364"
+    },
+    {
+      "path": "src/audio/SDL_mixer_m68k.h",
+      "sha256": "2289d9d261c0e96aed44de952e5a999e3e9435515cacd5b0a0e7572950d86f1e"
+    },
+    {
+      "path": "src/audio/SDL_mixer_MMX.h",
+      "sha256": "7ca46c20786d10da94ccdcedbda2aee82fdad541a62ae7cf5b4330195cf7242e"
+    },
+    {
+      "path": "src/audio/SDL_mixer_MMX_VC.h",
+      "sha256": "ec9badd9d643cd5e1ad85e8513b5dd4ae41846f35b328dad585051410c60e56d"
+    },
+    {
+      "path": "src/audio/SDL_sysaudio.h",
+      "sha256": "93463b5dbdcb49ac1a8edeaa0de153cf8ab37324e687e383e538ec178395a020"
+    },
+    {
+      "path": "src/audio/SDL_wave.h",
+      "sha256": "d6c7191e4f71d382654f387ce0113be0b77c4262442727101556bb0fa8950063"
+    },
+    {
+      "path": "src/audio/alsa/SDL_alsa_audio.h",
+      "sha256": "75236c575d959fcbf913380668a33e38a3d1a2e11145e28dd029b4a82fb9aee7"
+    },
+    {
+      "path": "src/audio/arts/SDL_artsaudio.h",
+      "sha256": "0a4cdd34846affc1b6de1cb86eba24f5a8632e82b5feed6dacb3b7c029c82f26"
+    },
+    {
+      "path": "src/audio/baudio/SDL_beaudio.h",
+      "sha256": "5cf38fe258e72af12affb7c69abea0211e256a23203eca016d94b3510c4927a7"
+    },
+    {
+      "path": "src/audio/bsd/SDL_bsdaudio.h",
+      "sha256": "07eef22f46bb6b175724980136c990432d87eba91565a332d134bf1aba47e18a"
+    },
+    {
+      "path": "src/audio/dart/SDL_dart.h",
+      "sha256": "8543a8622c56a7da0759ec3e2e7f0c805feafd8652070f9940d978d39aa41506"
+    },
+    {
+      "path": "src/audio/dc/aica.h",
+      "sha256": "7c87d0dea3aaa4cb0cfdf0c3cc6d83369e8bac6ebbb8a525318cfa7bfd6d27cc"
+    },
+    {
+      "path": "src/audio/dc/SDL_dcaudio.h",
+      "sha256": "45dd5ddb7b8f8f5d72f4343521e4dc5de2664189f48881c8ed4ba382dd0627da"
+    },
+    {
+      "path": "src/audio/disk/SDL_diskaudio.h",
+      "sha256": "867d994ae7df00283e9976c0283182d2eae03deda9787fdf208f7d48b5681163"
+    },
+    {
+      "path": "src/audio/dma/SDL_dmaaudio.h",
+      "sha256": "67973978f166f1b5c292fcd20e0e55f3d1e6d57e19187d614f4175a7b98cd4d7"
+    },
+    {
+      "path": "src/audio/dmedia/SDL_irixaudio.h",
+      "sha256": "7df59702e02b3316081017d161a5f4dd416fd85e2b1432843423246648896a1b"
+    },
+    {
+      "path": "src/audio/dsp/SDL_dspaudio.h",
+      "sha256": "1c730bcdaa8204c3cd764344e782c821213ad0c456161c6b8c8705667e44ca3c"
+    },
+    {
+      "path": "src/audio/dummy/SDL_dummyaudio.h",
+      "sha256": "e1d03587342f2ef256c01f49b4f490eae2b6c917b9903435502d2bbcf7661816"
+    },
+    {
+      "path": "src/audio/esd/SDL_esdaudio.h",
+      "sha256": "8ef717e470f40fceee47b527abe31ba06569c1adf60dedde5735f0460637a5e2"
+    },
+    {
+      "path": "src/audio/macosx/SDL_coreaudio.h",
+      "sha256": "84d1f0cd0cee8bfa60edc78285ff04cf28ca16cff25bdc8d9daf6b04d79f8aff"
+    },
+    {
+      "path": "src/audio/macrom/SDL_romaudio.h",
+      "sha256": "f50d985e5f1d3a4f85124c57e07f92c0d9d6c8f6e5e0f20a8ba292b466ffca63"
+    },
+    {
+      "path": "src/audio/mint/SDL_mintaudio.h",
+      "sha256": "e91a333a9c9e245e0f019cec0ad66926c944a5189a548dff5987f6620d6bfb38"
+    },
+    {
+      "path": "src/audio/mint/SDL_mintaudio_dma8.h",
+      "sha256": "ba4743a946dcdce6f05f5f383ccf81192d3181833d0c9442f823d164826f589a"
+    },
+    {
+      "path": "src/audio/mint/SDL_mintaudio_gsxb.h",
+      "sha256": "9b331992b6c84c30453e2c88f9ee7bde1d95b7c6b78a1d18ed6399a54e4c8397"
+    },
+    {
+      "path": "src/audio/mint/SDL_mintaudio_mcsn.h",
+      "sha256": "47c17c1fd8986d0836ef09f6788238db1a015069cd2168f8426093c337028ee4"
+    },
+    {
+      "path": "src/audio/mint/SDL_mintaudio_stfa.h",
+      "sha256": "7ee3586654d951d690475a710c4c41bc5c4e4d9b1708dce96c8f806cc564b849"
+    },
+    {
+      "path": "src/audio/mme/SDL_mmeaudio.h",
+      "sha256": "b8d9ceee6af63f9e13159698890915deac2caa17d9b6dc963aa0912469d19679"
+    },
+    {
+      "path": "src/audio/nas/SDL_nasaudio.h",
+      "sha256": "211d3da809706cf394d2f0a5f49b59dd71a90f3e2a7b4e2965756cb51e8a0236"
+    },
+    {
+      "path": "src/audio/nds/SDL_ndsaudio.h",
+      "sha256": "c5309a3fd8f1ae42dfd36c1cf15d813f2d8c676bfa000b8c9b62087eebcbd9bf"
+    },
+    {
+      "path": "src/audio/nds/soundcommon.h",
+      "sha256": "e60dbfebf07b1f38480b69a96061b384ff3686ca876167d72af394e57d8427dc"
+    },
+    {
+      "path": "src/audio/nto/SDL_nto_audio.h",
+      "sha256": "dc7a1cfe5b91d7bcd2181b72ff898ec2f41c0afa939a8960544d71a08ffd55db"
+    },
+    {
+      "path": "src/audio/paudio/SDL_paudio.h",
+      "sha256": "e17d7d090b77f2f875b317c6fa9a73464a3428d26b7c6e26983ac08f5cb1289b"
+    },
+    {
+      "path": "src/audio/psp/SDL_pspaudio.h",
+      "sha256": "2e9485d3d232601f006f5e0eb2ddb8ca480cfe301276871b65982114a5ee862b"
+    },
+    {
+      "path": "src/audio/pulse/SDL_pulseaudio.h",
+      "sha256": "1705f4b258c287b9b3907833d24649dd501a9c7e978b3f5455f3daad199ca343"
+    },
+    {
+      "path": "src/audio/sndio/SDL_sndioaudio.h",
+      "sha256": "9dd23435ad9f6b8372992a8859d148c2cfbabd9215cf126132516aafc891abde"
+    },
+    {
+      "path": "src/audio/sun/SDL_sunaudio.h",
+      "sha256": "503c1cb6ab81c0daecc9c665c4611b46f336d51a35fbb77c639a72c5640e9455"
+    },
+    {
+      "path": "src/audio/symbian/SDL_epocaudio.h",
+      "sha256": "7bfee402e416fd9fe4f0791bc87e0ea25d372381259a132e747609e907d25dcd"
+    },
+    {
+      "path": "src/audio/symbian/streamplayer.h",
+      "sha256": "7e9e994c544f41f3af8c9e62acc595eb3fc4c526dab5100fef66d9c07f4930ab"
+    },
+    {
+      "path": "src/audio/ums/SDL_umsaudio.h",
+      "sha256": "7684c0396d1fae70e29a2fda7da30bb33a28f6c58f85f4102728bc05abf68864"
+    },
+    {
+      "path": "src/audio/windib/SDL_dibaudio.h",
+      "sha256": "b26f8e5320dda9410f4e13f48def7febfc3fb7ea9fb642c9dab412a78851dd9b"
+    },
+    {
+      "path": "src/audio/windx5/directx.h",
+      "sha256": "f5170abdda928b9f8d606818dc1d7f4bea4090bbe33e0ce6912760b477ff9167"
+    },
+    {
+      "path": "src/audio/windx5/SDL_dx5audio.h",
+      "sha256": "7c16a6d50da93715f5c6702373d6e0fa2fbbe3537469bf3c145dae8ccf4392ef"
+    },
+    {
+      "path": "src/cdrom/SDL_syscdrom.h",
+      "sha256": "700855708a32751e6a7751f5e29cbcef0e6dce8a5f342a8a27104ee800f31c57"
+    },
+    {
+      "path": "src/cdrom/macos/SDL_syscdrom_c.h",
+      "sha256": "7cbad5ae2d8ad3f288b49499ca1961e5ab79764f1fc97694409cf4c15b0e1d1d"
+    },
+    {
+      "path": "src/cdrom/macosx/AudioFilePlayer.h",
+      "sha256": "c8daf1f5ce63c3487689d546b4057d71b03818b82bb17476342a4dd51e6cb1fd"
+    },
+    {
+      "path": "src/cdrom/macosx/CDPlayer.h",
+      "sha256": "8a6f217eb09be434317658dad4562a63f32f38c6bb093ca6bf62133b84e6450b"
+    },
+    {
+      "path": "src/cdrom/macosx/SDLOSXCAGuard.h",
+      "sha256": "acda2a9f0dcf2790bd219dd6e2d37aba42bf477310387a944013ecf98c6de103"
+    },
+    {
+      "path": "src/cdrom/macosx/SDL_syscdrom_c.h",
+      "sha256": "42069fd735b6a43b4db880dc7e03d44f0b371c12535fca89b2bdffed04e8226d"
+    },
+    {
+      "path": "src/events/SDL_events_c.h",
+      "sha256": "2bd68e6c05fa4ab5dde737038012212590374b5d81d21e4f8015881647408a7d"
+    },
+    {
+      "path": "src/events/SDL_sysevents.h",
+      "sha256": "1ec673b566000987cd61abf1427755ddbef660e801ab4dd1a093fb9b19e40d64"
+    },
+    {
+      "path": "src/hermes/HeadMMX.h",
+      "sha256": "097bd156731cc430ee2813847e969a560b5b958b1812a6513ca80939817ebcbb"
+    },
+    {
+      "path": "src/hermes/HeadX86.h",
+      "sha256": "6e6fcefa00cb981024e2d937f9d938872cc0e12b77e2f356a41997c8b59c1db8"
+    },
+    {
+      "path": "src/joystick/SDL_joystick_c.h",
+      "sha256": "3a55aa218f8309b584295925fe707382a7800106e069607fcf9e523598a38de5"
+    },
+    {
+      "path": "src/joystick/SDL_sysjoystick.h",
+      "sha256": "d6a628f9cd43f834e3e47e3e7e1310e28d1630230ec5c9d61c91b4e957dcaaee"
+    },
+    {
+      "path": "src/main/beos/SDL_BeApp.h",
+      "sha256": "f8815154355cedfe17355c756e799e401f6dbd53f855d73fdd183edd59724c8f"
+    },
+    {
+      "path": "src/main/macosx/SDLMain.h",
+      "sha256": "eca69675adbdf668a4da50d5358f10299bc035a10e4d882956e0190e9c179846"
+    },
+    {
+      "path": "src/main/symbian/EKA2/vectorbuffer.h",
+      "sha256": "a5b2fa38fd049e175c2971a8d2f7d4ca6d58c42542139c84e4dd07750b596e7a"
+    },
+    {
+      "path": "src/thread/SDL_systhread.h",
+      "sha256": "fa34f027b2e6ad1a629169f177843afecd4692b997234f41c0c1b47eb40a5c0d"
+    },
+    {
+      "path": "src/thread/SDL_thread_c.h",
+      "sha256": "d4b32be1ecb274f21bb8ac772dab7798f01f885c36d4c36678dca1e515fc6155"
+    },
+    {
+      "path": "src/thread/beos/SDL_systhread_c.h",
+      "sha256": "05340659765fe36e02781cf4d6a902bf2bd7d7618017422432f6a7c7b78fed0c"
+    },
+    {
+      "path": "src/thread/dc/SDL_syscond_c.h",
+      "sha256": "61ae57d3b1477503aec0d75a49da6253ab942738ac774bee7156563266ae5fe6"
+    },
+    {
+      "path": "src/thread/dc/SDL_sysmutex_c.h",
+      "sha256": "61ae57d3b1477503aec0d75a49da6253ab942738ac774bee7156563266ae5fe6"
+    },
+    {
+      "path": "src/thread/dc/SDL_syssem_c.h",
+      "sha256": "61ae57d3b1477503aec0d75a49da6253ab942738ac774bee7156563266ae5fe6"
+    },
+    {
+      "path": "src/thread/dc/SDL_systhread_c.h",
+      "sha256": "5ddf9c76fe23f845f554e44612868c48a89e0e6bacb8497c28fc22529fa23b8e"
+    },
+    {
+      "path": "src/thread/generic/SDL_sysmutex_c.h",
+      "sha256": "61ae57d3b1477503aec0d75a49da6253ab942738ac774bee7156563266ae5fe6"
+    },
+    {
+      "path": "src/thread/generic/SDL_systhread_c.h",
+      "sha256": "257916e723ac0a9238ecd7b55ff3a374dfb28ce3ed965a787847b5bf3b326460"
+    },
+    {
+      "path": "src/thread/irix/SDL_systhread_c.h",
+      "sha256": "abab73539508988f513ddc94488d5cf32d81c37e873ddb69dbe2e4ea17995351"
+    },
+    {
+      "path": "src/thread/os2/SDL_syscond_c.h",
+      "sha256": "61ae57d3b1477503aec0d75a49da6253ab942738ac774bee7156563266ae5fe6"
+    },
+    {
+      "path": "src/thread/os2/SDL_systhread_c.h",
+      "sha256": "4592e8bbaef2d5f75f013efd349df036fe578db6863f82aedb6eaa3c42ab567d"
+    },
+    {
+      "path": "src/thread/psp/SDL_systhread_c.h",
+      "sha256": "64d2a4da1cb9fc2afa74d88591ea0cbef6a8b321d743c268138c2cc382f2c4e4"
+    },
+    {
+      "path": "src/thread/pth/SDL_sysmutex_c.h",
+      "sha256": "7c51c3d7d81da24d62d758f93e2462a49cb836adddf58b46027dfe62154280ce"
+    },
+    {
+      "path": "src/thread/pth/SDL_systhread_c.h",
+      "sha256": "88d368f8ea5e64ca4cefec7943b514a889f8de6515b59e75d0bf40400d78df24"
+    },
+    {
+      "path": "src/thread/pthread/SDL_sysmutex_c.h",
+      "sha256": "153f222028d4d346c5462150a16b9c5f4b3c0e54070d6a9b33648794c1684c92"
+    },
+    {
+      "path": "src/thread/pthread/SDL_systhread_c.h",
+      "sha256": "2f3bcf75a99d59ec2baf99e386d62237e769244a0f9172c542370ba1d53b9b88"
+    },
+    {
+      "path": "src/thread/riscos/SDL_sysmutex_c.h",
+      "sha256": "3ce2c6f88d7dbab9784912cf5c587c7ee2293c3e0d276e40f12f045e34580607"
+    },
+    {
+      "path": "src/thread/riscos/SDL_systhread_c.h",
+      "sha256": "c77c3c41ceaba0abe19e101013091b815bf2c9998b18d96f798edfd580a88d90"
+    },
+    {
+      "path": "src/thread/symbian/SDL_systhread_c.h",
+      "sha256": "562da399da9eae058d8294f56942b36a528abce27dd60a27794e5ca7be116e94"
+    },
+    {
+      "path": "src/thread/win32/SDL_systhread_c.h",
+      "sha256": "35c2b425b6d0d32a6be5ad1f53aae3ad9f202f646bcb50736a40590a329d3977"
+    },
+    {
+      "path": "src/thread/win32/win_ce_semaphore.h",
+      "sha256": "2fb0c79db07e76e27ede9ee813c37a1681cd967809db22eba48f0315fae8d73a"
+    },
+    {
+      "path": "src/timer/SDL_systimer.h",
+      "sha256": "bd139a9cdf9ea168619036cd715659a1c1754f68f0edfaa237d55078109bed9b"
+    },
+    {
+      "path": "src/timer/SDL_timer_c.h",
+      "sha256": "123c1a5f342fe7aba2f79891854ae2724aa7d4b9ac89d5afb0aadcc8e41a277d"
+    },
+    {
+      "path": "src/timer/macos/FastTimes.h",
+      "sha256": "efb77da9023f3f286441f1e08857873bf05ead5c4ed0ea6e97e4b84cb68e1e66"
+    },
+    {
+      "path": "src/timer/mint/SDL_vbltimer_s.h",
+      "sha256": "606a399f265c433bebd4d118fb0e738e7ae5bf5b71b504c79a4ae223a17e675d"
+    },
+    {
+      "path": "src/video/blank_cursor.h",
+      "sha256": "ca66926258735813dbc833d09c1f83c090d0ef65bde945eb9861e9e845c79693"
+    },
+    {
+      "path": "src/video/default_cursor.h",
+      "sha256": "fcaca2f7e137d4c4f5c8ab560043a25d7b476bf0ba33165bb21615ebfd074b5d"
+    },
+    {
+      "path": "src/video/e_log.h",
+      "sha256": "cd9d4a60b3d2392c1c927e51cc5c2be96969aeec289727364679288130fbe137"
+    },
+    {
+      "path": "src/video/e_pow.h",
+      "sha256": "75b486b78464cc7224dd1d6381ec7144d2188a702bb826f83a2171959e1ba801"
+    },
+    {
+      "path": "src/video/e_sqrt.h",
+      "sha256": "60d50475069eefb70e565b656bbc08c9dfdc6763024242a89807224858abdcae"
+    },
+    {
+      "path": "src/video/math_private.h",
+      "sha256": "61f1b52f16e70a9aee90ab18032bce983fb635d196962e3d7b5d2da27a6b1e62"
+    },
+    {
+      "path": "src/video/mmx.h",
+      "sha256": "431638c93bd64f5a57bea631cb82d75689076740bf75b09b84db9ff37b80bb5f"
+    },
+    {
+      "path": "src/video/SDL_blit.h",
+      "sha256": "0ed270cd985b8e5582ee735f856ea7e0f7d7205a2cf3ced1ace882bf909c4030"
+    },
+    {
+      "path": "src/video/SDL_cursor_c.h",
+      "sha256": "67408d56fd5d36f17ab3dc6a655b56099beafe3bab55b014676ef97649c58cb8"
+    },
+    {
+      "path": "src/video/SDL_glfuncs.h",
+      "sha256": "eb2bce7b75848491609e95e9a5d168273308c54ad82d81c98ef2500c83590929"
+    },
+    {
+      "path": "src/video/SDL_leaks.h",
+      "sha256": "bab92e36e67e672ccefa3a0f2e009d293b573d1d36a82a2dfa85b927d798ca4d"
+    },
+    {
+      "path": "src/video/SDL_pixels_c.h",
+      "sha256": "c33719b709daabdd0eac387351dbdf4e0ccae5b10e5d2e21fb852b927c40738a"
+    },
+    {
+      "path": "src/video/SDL_RLEaccel_c.h",
+      "sha256": "d953add1f46e472d46efc703425fe488829d8af6b892be124c5bda43591e476d"
+    },
+    {
+      "path": "src/video/SDL_stretch_c.h",
+      "sha256": "df46412cfd8c8bd326b6b87bb3601a796b9e5e82a16a68f51c188b50337a4f69"
+    },
+    {
+      "path": "src/video/SDL_sysvideo.h",
+      "sha256": "998c99c47592aff2d4302eea9821c037eb353c09d27b2aa34cc6b69dd631d546"
+    },
+    {
+      "path": "src/video/SDL_yuvfuncs.h",
+      "sha256": "b7f36e04a1f7b9c9289eef14cb2b9064b9b6690b1a4766692e2a507614d1f3d2"
+    },
+    {
+      "path": "src/video/SDL_yuv_sw_c.h",
+      "sha256": "ce7e91f5cd9131b10fa938f20aeac993f1379736977167905e8f14d4263ffe7e"
+    },
+    {
+      "path": "src/video/aalib/SDL_aaevents_c.h",
+      "sha256": "02169aff0f17bbc1fdffdfade6827c894bb1ae87b7687d65772ce649b940cf3a"
+    },
+    {
+      "path": "src/video/aalib/SDL_aamouse_c.h",
+      "sha256": "c4e11ed3a3916dcf4b40b684cd3165b1b2c800a4ab566871b7f6f4a1275c4385"
+    },
+    {
+      "path": "src/video/aalib/SDL_aavideo.h",
+      "sha256": "b70f8749e5a87548c09ecc3adb4ae0855fa358d407e2b2176251da76bfc0c4bf"
+    },
+    {
+      "path": "src/video/ataricommon/SDL_ataric2p_s.h",
+      "sha256": "33c2526d26ce1d1b9a476f69e79c30999c6b2f43ae21c3d49fe2c3f1861e796b"
+    },
+    {
+      "path": "src/video/ataricommon/SDL_ataridevmouse_c.h",
+      "sha256": "c62d067a2ea8b40f2b5fe63d2534cbb119d09556145b113934c6f73582ee8572"
+    },
+    {
+      "path": "src/video/ataricommon/SDL_atarieddi_s.h",
+      "sha256": "ab72e12bb9deda3664689a8a43d16fd768429e8558c0d0d7950bfa8013ae5705"
+    },
+    {
+      "path": "src/video/ataricommon/SDL_atarievents_c.h",
+      "sha256": "699ee1a8e2d612734186ec969a458c586fade98de85f3da758ed54c4c48a74f6"
+    },
+    {
+      "path": "src/video/ataricommon/SDL_atarigl_c.h",
+      "sha256": "bbc5fbb68ac6c2b7930aa76dfc71acaa6d5b3967f5ffde90607bd962b17b1a7f"
+    },
+    {
+      "path": "src/video/ataricommon/SDL_atarikeys.h",
+      "sha256": "7303cd7bdb7b8c97d45489c2c6894a100febb5968a0010b9f18ffefc1966201a"
+    },
+    {
+      "path": "src/video/ataricommon/SDL_atarimxalloc_c.h",
+      "sha256": "f39e4071cf092f45947bb16943ab1a66a84e55b2e423ecde188c7e4ec549787a"
+    },
+    {
+      "path": "src/video/ataricommon/SDL_atarisuper.h",
+      "sha256": "1f03b171c1072ffe2577af86706595675e1e01be0fdcde7b96606541d2b24736"
+    },
+    {
+      "path": "src/video/ataricommon/SDL_biosevents_c.h",
+      "sha256": "cde00b6f770027f40271b75f3e99fcfb89e1a57918948a2e78e972a000d6f91e"
+    },
+    {
+      "path": "src/video/ataricommon/SDL_gemdosevents_c.h",
+      "sha256": "1045903104f03062d830458a0f04de148edba439df5da13bac936880e8e6016f"
+    },
+    {
+      "path": "src/video/ataricommon/SDL_ikbdevents_c.h",
+      "sha256": "13eca6bb248f66ec5254a7e9d0bcde067e4ed96c8c8f50cd28dd5c1b4df5d121"
+    },
+    {
+      "path": "src/video/ataricommon/SDL_ikbdinterrupt_s.h",
+      "sha256": "2d601eb7b11b2f376fc51df5e842bcf41a9de7ed73e418fff3e9d70e3681ae24"
+    },
+    {
+      "path": "src/video/ataricommon/SDL_xbiosevents_c.h",
+      "sha256": "61a93161eb9c4f099a3c07e112bf3d3243ea4b609f59e3b7cbbf773d81dd2a74"
+    },
+    {
+      "path": "src/video/ataricommon/SDL_xbiosinterrupt_s.h",
+      "sha256": "92ef25820cbc75c9525f3ddeb9bca2a69bf9d4d2656e9b2f46be1484e1c109f3"
+    },
+    {
+      "path": "src/video/bwindow/SDL_BView.h",
+      "sha256": "1db6be82fe9046890732f736eba65f37c54dd2db4db3c839ff010cd8c9e54244"
+    },
+    {
+      "path": "src/video/bwindow/SDL_BWin.h",
+      "sha256": "1d3b88ccc8c526da50f488f5aa75b91d230b6b45c1e394019666d7dcb003d4cb"
+    },
+    {
+      "path": "src/video/bwindow/SDL_lowvideo.h",
+      "sha256": "4c50c4c8168fbf0c409cafd3a6a4f96b810376b70ba1abe956d8150ca9193979"
+    },
+    {
+      "path": "src/video/bwindow/SDL_sysevents_c.h",
+      "sha256": "371e1569a576bda66bced572274fcfd1c5dd13e29eebf5c9498a2f52a7b42c19"
+    },
+    {
+      "path": "src/video/bwindow/SDL_sysmouse_c.h",
+      "sha256": "f4d1c42691e792a744e2f33bec1cfd2b72f1b22f69f29b52db30013a452d4579"
+    },
+    {
+      "path": "src/video/bwindow/SDL_syswm_c.h",
+      "sha256": "58d7ea412dd854ceb0a1f8de8cf11da1ead7b9528c8370937846ca60cadceea3"
+    },
+    {
+      "path": "src/video/bwindow/SDL_sysyuv.h",
+      "sha256": "c711f47b1fb5ed45a73331edf0e7440025b6a87a5446952b4169568340f04566"
+    },
+    {
+      "path": "src/video/caca/SDL_cacaevents_c.h",
+      "sha256": "fe3506d3ebbb8c95036b4070457d2bd05438cadcd90ac86b7393cbe1daa658dd"
+    },
+    {
+      "path": "src/video/caca/SDL_cacavideo.h",
+      "sha256": "849c7707527bea14d4736a671e8e750e887165c499e13742068c39f8c7918182"
+    },
+    {
+      "path": "src/video/dc/SDL_dcevents_c.h",
+      "sha256": "65db98fb15c87baad6d8cead5b3f0009b47c518e6a1d4343d4d886c5b1c77c8e"
+    },
+    {
+      "path": "src/video/dc/SDL_dcmouse_c.h",
+      "sha256": "89620e906ac61a7a6ae47517559fd37aa57ddcec5757b350870e8c36fbd65650"
+    },
+    {
+      "path": "src/video/dc/SDL_dcvideo.h",
+      "sha256": "435116190b56ef7c289f212753227c19e72684d2fa47bc2a569448d5bfd885cc"
+    },
+    {
+      "path": "src/video/dga/SDL_dgaevents_c.h",
+      "sha256": "f3788bb35cc3664cdf77f36eb2bc89a365aeb84b7cbeada3965cb0cd788b82c7"
+    },
+    {
+      "path": "src/video/dga/SDL_dgamouse_c.h",
+      "sha256": "a874cb2ae297562b87c97eab67d354b1460eb24720058a7327d688aea005e341"
+    },
+    {
+      "path": "src/video/dga/SDL_dgavideo.h",
+      "sha256": "c3dc369cf364571ec24ebd316d5202f4260c0b90daede42b631ad52852b2874f"
+    },
+    {
+      "path": "src/video/directfb/SDL_DirectFB_events.h",
+      "sha256": "44511d52aeb5d78766c49b48088ad6a85b0c9b5441d29715769c23f964de30ad"
+    },
+    {
+      "path": "src/video/directfb/SDL_DirectFB_keys.h",
+      "sha256": "e68bc4312e4dba86d74ab78e34e853419e80c87bfa245c9c648d488cd92af00a"
+    },
+    {
+      "path": "src/video/directfb/SDL_DirectFB_video.h",
+      "sha256": "04166cc223aea7d6c0b8dd075cd8118b1254688978844496f9cb3d38da7010c5"
+    },
+    {
+      "path": "src/video/directfb/SDL_DirectFB_yuv.h",
+      "sha256": "b75f48c06ad385f2673a7727049833d512954a44b6d10d8b282f33a5ef90e68e"
+    },
+    {
+      "path": "src/video/dummy/SDL_nullevents_c.h",
+      "sha256": "3e8a2effe91cdf3db033355059e5552019165bd2cca8b3e18dd1cee0205de866"
+    },
+    {
+      "path": "src/video/dummy/SDL_nullmouse_c.h",
+      "sha256": "fc869524a1f0e22ac032fb33744d15de202da4ec3f9f234444c4d9b979f85cf8"
+    },
+    {
+      "path": "src/video/dummy/SDL_nullvideo.h",
+      "sha256": "d308fe381c06526eb1ba77cd7d2d9771796bd29c5b0bd34a2512ed3f5409e07d"
+    },
+    {
+      "path": "src/video/fbcon/3dfx_mmio.h",
+      "sha256": "3a650cb974246d37923bbc875791ed52b4155c0703a34a8ce6f7a83251ac4489"
+    },
+    {
+      "path": "src/video/fbcon/3dfx_regs.h",
+      "sha256": "9d13f334fb906df372003c5dc3d8526dffec5adfb319e268ff4a88bdee8025a4"
+    },
+    {
+      "path": "src/video/fbcon/matrox_mmio.h",
+      "sha256": "51a621f60ca9df8951377effb9c02bad295f2021dbfcd1a2682d23adc7623d35"
+    },
+    {
+      "path": "src/video/fbcon/matrox_regs.h",
+      "sha256": "7205b8ded078189c18f73aeb1ddcc6bf8fa6c1a6f881f4f8bafebb37b0e1235e"
+    },
+    {
+      "path": "src/video/fbcon/riva_mmio.h",
+      "sha256": "1b5b714f5a79d05bd8612d448712750d93dd7723a199711fcd143f001a5ed603"
+    },
+    {
+      "path": "src/video/fbcon/riva_regs.h",
+      "sha256": "f908c4bd482e6e91eaace5252b5e9c7c523b74b470bb3d83838af847b331ede1"
+    },
+    {
+      "path": "src/video/fbcon/SDL_fb3dfx.h",
+      "sha256": "803ef11420e52f8b7abda51000aed7415be87c08a58e06df366882c9cffdc916"
+    },
+    {
+      "path": "src/video/fbcon/SDL_fbelo.h",
+      "sha256": "3f94dd8a269f3ce8ae8a450d2432732793e41a177b16910632ebb24438c5d0f8"
+    },
+    {
+      "path": "src/video/fbcon/SDL_fbevents_c.h",
+      "sha256": "ac5ab47a2154ce47fa6a9f3ce0b86425d143d24efb5ae6aac9fd6cf187673628"
+    },
+    {
+      "path": "src/video/fbcon/SDL_fbkeys.h",
+      "sha256": "4a45c5fb6467de93285e38b5f6a2e7f25768d489c91cdaac13dee9d73f11b7a7"
+    },
+    {
+      "path": "src/video/fbcon/SDL_fbmatrox.h",
+      "sha256": "0fdc090238fcd27bcf945aea4ca72154ada4d3d37c448aeba10b3063e002541c"
+    },
+    {
+      "path": "src/video/fbcon/SDL_fbmouse_c.h",
+      "sha256": "8643abba2967665422dada0ff3b6e277ff2d463e2db11f736e3c129d5a480b00"
+    },
+    {
+      "path": "src/video/fbcon/SDL_fbriva.h",
+      "sha256": "d110b0649f8430684572bf84f939090511887723cdef488f8cde04768b125db5"
+    },
+    {
+      "path": "src/video/fbcon/SDL_fbvideo.h",
+      "sha256": "b6cf2c2b6adbfe4ab5dd6a644f33188607cf3ec41427fa15d1510a72b890eab5"
+    },
+    {
+      "path": "src/video/gapi/SDL_gapivideo.h",
+      "sha256": "9609580c52b47ed8910d7152790484271c9788557bbba5ad801b155288b8c94f"
+    },
+    {
+      "path": "src/video/gem/SDL_gemevents_c.h",
+      "sha256": "2773b77a56099a309c9f68ce0a3168bdc0b244041becfe49089338d5408359ad"
+    },
+    {
+      "path": "src/video/gem/SDL_gemmouse_c.h",
+      "sha256": "60eaf0c618ca219c04a234a6c47fc4e2f8c4119d27dc8809998ef3080580fd8c"
+    },
+    {
+      "path": "src/video/gem/SDL_gemvideo.h",
+      "sha256": "d425e22e5a2a24e6d2909df9e4e448c604980d20a583a949758fc328429dede7"
+    },
+    {
+      "path": "src/video/gem/SDL_gemwm_c.h",
+      "sha256": "d1c8a37129db1c89d3972b87caea5bfb9c61754acd57b3fe437ed3f59e5203c5"
+    },
+    {
+      "path": "src/video/ggi/SDL_ggievents_c.h",
+      "sha256": "87db8021a4df1c9b7547a3823a16b511c46416fcb191704de765b9f70b66e10a"
+    },
+    {
+      "path": "src/video/ggi/SDL_ggikeys.h",
+      "sha256": "e68bc4312e4dba86d74ab78e34e853419e80c87bfa245c9c648d488cd92af00a"
+    },
+    {
+      "path": "src/video/ggi/SDL_ggimouse_c.h",
+      "sha256": "8d440e47910b8a168b70bd182f3cb052cb17997079dfb444239a995be52c31d4"
+    },
+    {
+      "path": "src/video/ggi/SDL_ggivideo.h",
+      "sha256": "48dea0f260dc7f9f09e605a75b42cf4169c4c96788c6c16de3121666b7e09f67"
+    },
+    {
+      "path": "src/video/ipod/SDL_ipodvideo.h",
+      "sha256": "c16745a49f0d4425f5cccd5ec36ce2238347c17d58430312ce0ef8b6d90edcc5"
+    },
+    {
+      "path": "src/video/maccommon/SDL_lowvideo.h",
+      "sha256": "81d34c4ec307e4ebf6d7e73784e1435cf15fab94d48975f53ca9bd7ff6bb2edb"
+    },
+    {
+      "path": "src/video/maccommon/SDL_macevents_c.h",
+      "sha256": "9f55aa51d238289cf3b303bcd84e05b462852c4e86dcc813cd78a9c82b293885"
+    },
+    {
+      "path": "src/video/maccommon/SDL_macgl_c.h",
+      "sha256": "8b45a73ddc89d48c379261b73bd6c1c43ed47d700be970f382f2cac79645eadb"
+    },
+    {
+      "path": "src/video/maccommon/SDL_mackeys.h",
+      "sha256": "96bd4d931649715dadf39a9855eddc7dbbff8e8aa39e846365c7b42ccd135228"
+    },
+    {
+      "path": "src/video/maccommon/SDL_macmouse_c.h",
+      "sha256": "e147b2e5ecc4a0c51e41c0215532207354d48f8c9db174d7c77e12afece74246"
+    },
+    {
+      "path": "src/video/maccommon/SDL_macwm_c.h",
+      "sha256": "e30a8c780cb43e5d37075649022d0bda6a5b3dfeb255fb61e69ce4a2dc64497b"
+    },
+    {
+      "path": "src/video/macdsp/SDL_dspvideo.h",
+      "sha256": "8e592d1a8aef00c4915d0157b89976232e84c5a43807eccc8a7f462c79f85339"
+    },
+    {
+      "path": "src/video/macrom/SDL_romvideo.h",
+      "sha256": "770074a0a95cb23f902971bb4fc8af3fe0cd0748e8cd6aa8aac09314088fd4fa"
+    },
+    {
+      "path": "src/video/nanox/SDL_nxevents_c.h",
+      "sha256": "26f0878c4d460938c19dee3ae905e0eba37c47c2b828434f9bfddfce0c47f79d"
+    },
+    {
+      "path": "src/video/nanox/SDL_nximage_c.h",
+      "sha256": "32e8e087db175b254db2c69dca9767467b52f7e59157beb0350a8ff38f83feb4"
+    },
+    {
+      "path": "src/video/nanox/SDL_nxmodes_c.h",
+      "sha256": "8b22fbeab7cf7155cb19a66f401ac3794d29844c53a1f98b1664e70ee69a4112"
+    },
+    {
+      "path": "src/video/nanox/SDL_nxmouse_c.h",
+      "sha256": "ff4bcecf23e8be86eb8ac249949b0b1781738887680a9be964e6cec56c1e9a97"
+    },
+    {
+      "path": "src/video/nanox/SDL_nxvideo.h",
+      "sha256": "dc2c09da3d6d39ef2b2353ff3b0365b9b1ecb8ae1f02d3e8fdfd126bc3efce2f"
+    },
+    {
+      "path": "src/video/nanox/SDL_nxwm_c.h",
+      "sha256": "81a6b8b20eedc205aff32a3edc8e6cc18f97479e5685419a374398b86b5e1130"
+    },
+    {
+      "path": "src/video/nds/SDL_ndsevents_c.h",
+      "sha256": "c8bb649c9f08377126a8ee8b08d51b3a9ec02a9b792129b6b6f3b2fbca729897"
+    },
+    {
+      "path": "src/video/nds/SDL_ndsmouse_c.h",
+      "sha256": "0e256dc500405f7630ecb208c1b4ca4b90ba334206874457a3d186b2610d78a7"
+    },
+    {
+      "path": "src/video/nds/SDL_ndsvideo.h",
+      "sha256": "a86aee6b0bc5695cef3131c0f300b4bf3e452a4b5c753464781237d223fb6ccb"
+    },
+    {
+      "path": "src/video/os2fslib/SDL_os2fslib.h",
+      "sha256": "ce5e074573bb937f1b3880dd2728601f0150d7f1ca20a349e114e6ea91fcbdaf"
+    },
+    {
+      "path": "src/video/os2fslib/SDL_vkeys.h",
+      "sha256": "73de7d2251318e36c38112097a88dc0ce2be3d547161a8e6faf14143523cb664"
+    },
+    {
+      "path": "src/video/photon/SDL_phyuv_c.h",
+      "sha256": "6940c21f9ed7544b756756d79c47c3975b94e8f095eaa90cfe4bdcdc9b1992e1"
+    },
+    {
+      "path": "src/video/photon/SDL_ph_events_c.h",
+      "sha256": "962b801fec617ab1e3f3e2923e1ae9903a4406a270cbf075ecd229a9a4711aec"
+    },
+    {
+      "path": "src/video/photon/SDL_ph_gl.h",
+      "sha256": "d8b5babef0530353525f7a5603734a0735ea1e064aebaa08a99f32020c2338af"
+    },
+    {
+      "path": "src/video/photon/SDL_ph_image_c.h",
+      "sha256": "321d843a48eb90a234126e2d76868367edaa6f70584145955fca60fb5b4958e7"
+    },
+    {
+      "path": "src/video/photon/SDL_ph_modes_c.h",
+      "sha256": "343d9a2d113fe635811bea079f9526ddeb0fd6c9610c115ba2cb98875ee34648"
+    },
+    {
+      "path": "src/video/photon/SDL_ph_mouse_c.h",
+      "sha256": "c13a5925c8af7b53e5037ef395275202611d6b9c5c590004fa8e5311b34a1f2e"
+    },
+    {
+      "path": "src/video/photon/SDL_ph_video.h",
+      "sha256": "eb93a4588c37708e6ec7df8d3a9c361470139ed1e0e18d854fcbf2e6bc950d91"
+    },
+    {
+      "path": "src/video/photon/SDL_ph_wm_c.h",
+      "sha256": "968561358c55d9fc1be4a89ca09b2113b40db91b453ae305fc29ddb14a4dd911"
+    },
+    {
+      "path": "src/video/picogui/SDL_pgevents_c.h",
+      "sha256": "76574ddca9215460dff8c1f57b544cef3e104e92350bd3a7bbf73c1c37c5369b"
+    },
+    {
+      "path": "src/video/picogui/SDL_pgvideo.h",
+      "sha256": "e15c694dd519136331e1e6fde50d026615ba190c87bd5412befd800dd9103463"
+    },
+    {
+      "path": "src/video/ps2gs/SDL_gsevents_c.h",
+      "sha256": "213b2955a2e3a24b42e33af6d943a715bb8b9742e85c91165658764332c80011"
+    },
+    {
+      "path": "src/video/ps2gs/SDL_gskeys.h",
+      "sha256": "4a45c5fb6467de93285e38b5f6a2e7f25768d489c91cdaac13dee9d73f11b7a7"
+    },
+    {
+      "path": "src/video/ps2gs/SDL_gsmouse_c.h",
+      "sha256": "8b94b0cdbba93bd2b78e88f7ff509872ec5fd5181e16bcec8a4ecd10230fd9f9"
+    },
+    {
+      "path": "src/video/ps2gs/SDL_gsvideo.h",
+      "sha256": "6f28d087149a4365c12d296f2d0575fed1e13851524d2bbeb17adaea0fefd342"
+    },
+    {
+      "path": "src/video/ps2gs/SDL_gsyuv_c.h",
+      "sha256": "10cb3d67e703e45bf5b317477ebe3ea03d96c69875e330d7af7ca2ff50457bae"
+    },
+    {
+      "path": "src/video/ps3/SDL_ps3events_c.h",
+      "sha256": "f188cea96f5c1be83bf67c8d8285da03f8a9dfe0169e7ff7795e3f5093ab9bdd"
+    },
+    {
+      "path": "src/video/ps3/SDL_ps3video.h",
+      "sha256": "b0e84045430fc5f582f67f4e20f9c4b21a78a35133c84772856e312d7120b0ea"
+    },
+    {
+      "path": "src/video/ps3/SDL_ps3yuv_c.h",
+      "sha256": "3379d3694c4b0668400dd602da2e1f3980034bcceb6f0b329c16339f43cc8539"
+    },
+    {
+      "path": "src/video/ps3/spulibs/spu_common.h",
+      "sha256": "62abc7a3807a013b520255395c6250de48e9d5c9b20abd9845604393f0e8b72b"
+    },
+    {
+      "path": "src/video/psp/SDL_pspevents_c.h",
+      "sha256": "65f1513a4879c94cbebf1299bbf943467e4686b9e4829ceeb746470bd4a841ef"
+    },
+    {
+      "path": "src/video/psp/SDL_pspgl_c.h",
+      "sha256": "a2a46500c48ec5797ef820d74c10fa33e5468cd95decc79ae888896071aa54df"
+    },
+    {
+      "path": "src/video/psp/SDL_pspmouse_c.h",
+      "sha256": "b16c94437e2111d15fb8e9dc3538cac166117c0c433c4eebbb1aae09d3b99a6e"
+    },
+    {
+      "path": "src/video/psp/SDL_pspvideo.h",
+      "sha256": "cbe55f2a08d2e697badc0d9900182f681d6c2d7a14c93e5f7366ccc0882b728e"
+    },
+    {
+      "path": "src/video/qtopia/SDL_lowvideo.h",
+      "sha256": "a68ac80feedbdb8488539aeff2eea18a56bd67e899689e2940f5507ece0d1962"
+    },
+    {
+      "path": "src/video/qtopia/SDL_QPEApp.h",
+      "sha256": "54803a1dae58ddf1e78252fb7c09d94a842d5910512e7ab44f938f5c171e22a6"
+    },
+    {
+      "path": "src/video/qtopia/SDL_QWin.h",
+      "sha256": "bd67511c19ac71ac5943d4261c2a628e4ffa48c0e38fc762187477b0b97db3c5"
+    },
+    {
+      "path": "src/video/qtopia/SDL_sysevents_c.h",
+      "sha256": "3a508980c641772b016240bb8142f1fe2d1a772cecc41c6a0948f266d978389c"
+    },
+    {
+      "path": "src/video/qtopia/SDL_sysmouse_c.h",
+      "sha256": "e53c13d178133c351e0ddd301589be262b96ceffd6b61c4c64baee6e547c4780"
+    },
+    {
+      "path": "src/video/qtopia/SDL_syswm_c.h",
+      "sha256": "e57bf0fb8b90a69b78bc3a416849e38cb4b7d9faeab4be1d44abd23ef4637e86"
+    },
+    {
+      "path": "src/video/quartz/CGS.h",
+      "sha256": "b55abf59591efff748708b547a00ea3193b4b66e7f9616cfda91f5ef5005e0fd"
+    },
+    {
+      "path": "src/video/quartz/SDL_QuartzKeys.h",
+      "sha256": "11ac61f63255948deaac58536c24a07aec9019262db7fb8ce50e8639be0d1f2c"
+    },
+    {
+      "path": "src/video/quartz/SDL_QuartzVideo.h",
+      "sha256": "ab7891b7727f7a768473efdab41732c0f6ed0ee20392cb7056e3d4fb221ff34e"
+    },
+    {
+      "path": "src/video/quartz/SDL_QuartzWindow.h",
+      "sha256": "590fd8e61baefe6b2bdc10ab95deed611c9fb5038bb5e6c09e6e7b1e0b8e4da5"
+    },
+    {
+      "path": "src/video/quartz/SDL_QuartzWM.h",
+      "sha256": "b5c6427d2aff81221049891655f612138e7b4e670486fb0ae72113de34b4faf7"
+    },
+    {
+      "path": "src/video/riscos/SDL_riscosevents_c.h",
+      "sha256": "612e4d0c9ceccfe63a2cc4c5713333f010acda1e1b183f082df0d843b3633cdc"
+    },
+    {
+      "path": "src/video/riscos/SDL_riscosmouse_c.h",
+      "sha256": "fbfe7b85601747c39ce1151746e9d09ba175752543aadce717d44f0df0c48609"
+    },
+    {
+      "path": "src/video/riscos/SDL_riscostask.h",
+      "sha256": "c1c6cdab4a59a8b5cdc1c3b11220023e0274b1439b10d18e321ea2e8e0d1f167"
+    },
+    {
+      "path": "src/video/riscos/SDL_riscosvideo.h",
+      "sha256": "d4f20e9c7cc146cd66dc3f61b1f93a7b69c168990449d6ba0363750723037eae"
+    },
+    {
+      "path": "src/video/svga/SDL_svgaevents_c.h",
+      "sha256": "76bf0dddd1eeadcbb7be7a18eb6aeb78b28d55c8c853bc215ea3d9d66c239979"
+    },
+    {
+      "path": "src/video/svga/SDL_svgamouse_c.h",
+      "sha256": "1cdfbe19ded4515bebc4243662024f759fc9a65289bdfa51a4bea56f7b64ceba"
+    },
+    {
+      "path": "src/video/svga/SDL_svgavideo.h",
+      "sha256": "4000226935b38845acc463e053e0b407190c9a8e5b280b10ac7b6085bbc4291d"
+    },
+    {
+      "path": "src/video/symbian/SDL_epocevents_c.h",
+      "sha256": "938e61d1baf3b34d6f9bd648d487dd8df2134f33935e05923e29f8f187027dbc"
+    },
+    {
+      "path": "src/video/symbian/EKA1/SDL_epocvideo.h",
+      "sha256": "20ea4f749d21451952853d9b9a2e913495ab17ea5146a87ba6d9eddbb8a5b5e3"
+    },
+    {
+      "path": "src/video/symbian/EKA2/SDL_epocvideo.h",
+      "sha256": "692099fab39995a6e2fc3b4e290c38ac915b646eacd4fb016849ba915e8208df"
+    },
+    {
+      "path": "src/video/vgl/SDL_vglevents_c.h",
+      "sha256": "2ff4e954a15093ef7c823339ead2a336d5e9266da39d7fdd779ad5325ae1aa67"
+    },
+    {
+      "path": "src/video/vgl/SDL_vglmouse_c.h",
+      "sha256": "ace512926c394df4f8b55a8d10466d497b83db3d01b6c9ae5b5fff2302b6a438"
+    },
+    {
+      "path": "src/video/vgl/SDL_vglvideo.h",
+      "sha256": "dbf455ef02a20da4c655ea8a75e60f4268b687fa534c75f51b0c49fb93270964"
+    },
+    {
+      "path": "src/video/wincommon/SDL_lowvideo.h",
+      "sha256": "77c727d6f28856a7f77540f75fff2610b569c650f0178fbbe2fadbd89da8835f"
+    },
+    {
+      "path": "src/video/wincommon/SDL_sysmouse_c.h",
+      "sha256": "538e3fe2487216daec7d245d74af1e4467da1e2f8d7e56be6a17881f05e4d65b"
+    },
+    {
+      "path": "src/video/wincommon/SDL_syswm_c.h",
+      "sha256": "592a66f09981285d9559d9439d41ba39d75f897a8fe7f1b98a7a8b38caf8a7ff"
+    },
+    {
+      "path": "src/video/wincommon/SDL_wingl_c.h",
+      "sha256": "f97ea57d39c5fadc342c32bf9ca30530db2857eaae0fb817025f7990deceba62"
+    },
+    {
+      "path": "src/video/wincommon/wmmsg.h",
+      "sha256": "cf3062ed7c0bd095c57c6a80696f69801b276bfb8be12d541110b65d83c79e5e"
+    },
+    {
+      "path": "src/video/windib/SDL_dibevents_c.h",
+      "sha256": "dffdff638f282dea871500715de122f07afc3d4bc07b04293c9fa03faec29a34"
+    },
+    {
+      "path": "src/video/windib/SDL_dibvideo.h",
+      "sha256": "bb5186e2a380be7fbf4bf6620f66ed25fe2c94b2f4b49347a412f015c8094f87"
+    },
+    {
+      "path": "src/video/windib/SDL_gapidibvideo.h",
+      "sha256": "883a73851c03fb310c1a54d8888062c941e16b51bc9dabb7d9985b1bd4d1d16e"
+    },
+    {
+      "path": "src/video/windib/SDL_vkeys.h",
+      "sha256": "d9b39439e1e922466f3a5cd18cd1be5ddfa51e35122c54be1b6960a1b6688160"
+    },
+    {
+      "path": "src/video/windx5/directx.h",
+      "sha256": "1a9014ebad72faf5c289e12f2b2d2618f176c91333c18ff44ffdac73931cd3a5"
+    },
+    {
+      "path": "src/video/windx5/SDL_dx5events_c.h",
+      "sha256": "d22d75611003a5da8d50531425a15dd3178991c658dcd6bf521503272e71d9e9"
+    },
+    {
+      "path": "src/video/windx5/SDL_dx5video.h",
+      "sha256": "ca6d8ddb87b8698d0cad697bd18233239caf163d85f4950ebd1a184e67e226e7"
+    },
+    {
+      "path": "src/video/windx5/SDL_dx5yuv_c.h",
+      "sha256": "9bfba3e87cf34250b42e2901d6415eef8c7404f617d7657cb8a11335ad28985e"
+    },
+    {
+      "path": "src/video/wscons/SDL_wsconsevents_c.h",
+      "sha256": "b81b5271e610516aa45cd6ad1dce9a60d7cbeb41c0d7d59be68558699a1a481f"
+    },
+    {
+      "path": "src/video/wscons/SDL_wsconsmouse_c.h",
+      "sha256": "bfec68e7e91efbc06101eb1ad62a788d19c8dcc43acf0c224f39c309e7cfb3ff"
+    },
+    {
+      "path": "src/video/wscons/SDL_wsconsvideo.h",
+      "sha256": "460e4b84483c9faa25ecfe09c8409e6aa8ef081a2a6b236c3278a80d6ddd04d7"
+    },
+    {
+      "path": "src/video/x11/SDL_x11dga_c.h",
+      "sha256": "bb1d4f002569684f7e3bc6462ca73b6263991be4bd43396b47f074f608745d54"
+    },
+    {
+      "path": "src/video/x11/SDL_x11dyn.h",
+      "sha256": "c92aba8f8cb53404dd7a69f0c3f641f2227f3a8e8c125f66b7e591824875de11"
+    },
+    {
+      "path": "src/video/x11/SDL_x11events_c.h",
+      "sha256": "c949a0da7767dc04ad25e267696df63a372551337470ff2f207e7306aae534f2"
+    },
+    {
+      "path": "src/video/x11/SDL_x11gamma_c.h",
+      "sha256": "464a0dd661ac6d16a67843e8b9a75e339f659c63f0df29a68bed1bd07588171d"
+    },
+    {
+      "path": "src/video/x11/SDL_x11gl_c.h",
+      "sha256": "12b764451e6f51069a63efd6ce1922282df7210608b20839a2dab27a48fda68e"
+    },
+    {
+      "path": "src/video/x11/SDL_x11image_c.h",
+      "sha256": "bd9bae30c22dfcce8f6d0d1839076051c8fbff68d5074c7a597bab133759b20c"
+    },
+    {
+      "path": "src/video/x11/SDL_x11modes_c.h",
+      "sha256": "2c8bca42a1886c49ff2051ca4f228509d22a9197194c561b7c02337eeecdcaa4"
+    },
+    {
+      "path": "src/video/x11/SDL_x11mouse_c.h",
+      "sha256": "245c5d0932f77dd3b11d8c766039dc2e6f6727f3bded7fcf06027eedf33971e2"
+    },
+    {
+      "path": "src/video/x11/SDL_x11sym.h",
+      "sha256": "4d9fc97832cab8d1f9a7e5fb70c0b92016cf9504df6fc7ab1139fd8264508c32"
+    },
+    {
+      "path": "src/video/x11/SDL_x11video.h",
+      "sha256": "87d7f2fd57924f7a006a4720930a28a07f611bfba29a5f48d95dfb11574f63d4"
+    },
+    {
+      "path": "src/video/x11/SDL_x11wm_c.h",
+      "sha256": "39cfaf76b788205264cece0626b3c1da033e0cdcfee7ec93f23c58bf35047415"
+    },
+    {
+      "path": "src/video/x11/SDL_x11yuv_c.h",
+      "sha256": "fe83642de047c6fe72c3ee91380c8ccdbb23c17c028be54b6c7dc8fc2ae22f1e"
+    },
+    {
+      "path": "src/video/xbios/SDL_xbios.h",
+      "sha256": "2fd5f929ad7c10628a396f07d3920144e366291ba80af432869039fdc6651a43"
+    },
+    {
+      "path": "src/video/xbios/SDL_xbios_blowup.h",
+      "sha256": "776fbbbf1cf3f76abc3899f64498a4915b75b67d899a7eeb2eb088d66ea4b26e"
+    },
+    {
+      "path": "src/video/xbios/SDL_xbios_centscreen.h",
+      "sha256": "681878a45dddf6a7d587b6a8b7c02dd9afd84bb76203430194165d021c199d27"
+    },
+    {
+      "path": "src/video/xbios/SDL_xbios_milan.h",
+      "sha256": "f34959643161839d96697f46929be3dbe9596a7ac465847b20b3b165d844a253"
+    },
+    {
+      "path": "src/video/xbios/SDL_xbios_sb3.h",
+      "sha256": "de3baa7b4cb9e250c3e59599b436c4de28cbbc2dc88d59f34b15ff0b30573d39"
+    },
+    {
+      "path": "src/video/xbios/SDL_xbios_tveille.h",
+      "sha256": "907fe92d688ffafaa3fcfc680bb87cdc7e985429114dab5d972de453adb50e09"
+    },
+    {
+      "path": "src/video/Xext/extensions/extutil.h",
+      "sha256": "99d4bad25f6882517025f18dd5f923bc1296277a99f4eba912fd070d2906da1e"
+    },
+    {
+      "path": "src/video/Xext/extensions/panoramiXext.h",
+      "sha256": "eaba310e1c6b92044b9a025323348e300b5937c3fc9ebe5d2eb31391932387d8"
+    },
+    {
+      "path": "src/video/Xext/extensions/panoramiXproto.h",
+      "sha256": "254940203b9e4e8bc0799f5c45e7198c32a3948894052023c8eacc1a290ef992"
+    },
+    {
+      "path": "src/video/Xext/extensions/Xext.h",
+      "sha256": "7ba1dc506720cbf3453556a9677e38c29963ad2dfea3bf3eafe7a824a384de0e"
+    },
+    {
+      "path": "src/video/Xext/extensions/xf86dga.h",
+      "sha256": "470c513a0b075a43271c1a9779c07eb3f0b86d931a057884496fa908834236d4"
+    },
+    {
+      "path": "src/video/Xext/extensions/xf86dga1.h",
+      "sha256": "6da2ef0b79bfb8803b2baa375a6ea200fbabafbd29f9365a3115fcc8c5cd6e08"
+    },
+    {
+      "path": "src/video/Xext/extensions/xf86dga1str.h",
+      "sha256": "bb691e262acdac793edec67f8cd349726cf900e2787743d1a67ee7ec40dd9f4b"
+    },
+    {
+      "path": "src/video/Xext/extensions/xf86dgastr.h",
+      "sha256": "80b9228b3628c6ea5c8ab14fdd922823f107fe5ecd39ad4bde5d927c0bc5be5e"
+    },
+    {
+      "path": "src/video/Xext/extensions/xf86vmode.h",
+      "sha256": "801fe75187cc9fa603a62cf3695fb0c8860757a287aa202612aff26538465dbe"
+    },
+    {
+      "path": "src/video/Xext/extensions/xf86vmstr.h",
+      "sha256": "4cf5b905a9bdda2419d3d117e9830094479df9b1066c21311154397e19c640cc"
+    },
+    {
+      "path": "src/video/Xext/extensions/Xinerama.h",
+      "sha256": "ac138b98f27c0df2256c6c7319aa903a36a6834144ee0907f9ab3ce96760e111"
+    },
+    {
+      "path": "src/video/Xext/extensions/xme.h",
+      "sha256": "6e139d675ad96214078854c7c2429cc79cd6c3b072b8df1267c49047aea44ff8"
+    },
+    {
+      "path": "src/video/Xext/extensions/Xv.h",
+      "sha256": "cc20da36b9f429f12aa0f95d33c20526c3865d1917ab51c8716a061a73ef1a2e"
+    },
+    {
+      "path": "src/video/Xext/extensions/Xvlib.h",
+      "sha256": "44db6c84bd138d2eb84bd6837de65dca899f50ed88b2fb9e837523db4668490a"
+    },
+    {
+      "path": "src/video/Xext/extensions/Xvproto.h",
+      "sha256": "763a3f048135b78553a072408184e175ba23ad71eb47bb662bb6809eb8481003"
+    },
+    {
+      "path": "src/video/Xext/Xv/Xvlibint.h",
+      "sha256": "8776b75f45cc22e38a8ded83324fee3c5dab125026284efd8c75f55fd5c2da9d"
+    },
+    {
+      "path": "src/video/psp/SDL_pspvideo.c",
+      "sha256": "8af4a95b5ab2714f2c4f9ecfa63c3949a5655dd78f1f9731def2923d03909107"
+    },
+    {
+      "path": "COPYING",
+      "sha256": "35e4136e96aace60757a8b939741959d8627c4bc1fce62af99df325395276c56"
+    }
+  ]
+}

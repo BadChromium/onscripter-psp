@@ -1,0 +1,10 @@
+*.o
+*.obj
+*.a
+*.d
+*.elf
+*.PBP
+*.SFO
+*.exe
+__pycache__/
+*.pyc

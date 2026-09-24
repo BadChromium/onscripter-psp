@@ -41,6 +41,10 @@ docker run --rm -v "$PWD:/src" -w /src \
 
 光盘打包方面，已验收的游戏使用了 `genisoimage -xa -iso-level 3 -allow-lowercase -allow-multidot -omit-version-number`。非 XA 镜像曾在测试用 PSP 上导致部分文件无法打开。由引擎直接打开的视频及支持文件应保留在 NSA 归档之外。
 
+## 移植工具
+
+[资源与视频准备指南（英文）](docs/asset-preparation.md)介绍声明画布、旧式透明度布局、脚本状态隔离及媒体验证。`tools/pmf_prepare.py` 提供基于时间戳的时长规划，以及针对特定 Mps2Pmf 格式的结束时间戳修正和输入检查。测试使用合成数据，仅依赖 Python 标准库。这些是主机端辅助工具，不是新增运行时功能、内置编码器或完整游戏转换器。
+
 ## 来源与致谢
 
 - Ogapee 开发的原版 [ONScripter](https://onscripter.osdn.jp/)，保留原始版权声明。

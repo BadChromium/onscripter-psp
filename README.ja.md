@@ -41,6 +41,10 @@ docker run --rm -v "$PWD:/src" -w /src \
 
 ディスクのパッケージングには、動作確認済みのゲームで `genisoimage -xa -iso-level 3 -allow-lowercase -allow-multidot -omit-version-number` を使用しました。XA でないイメージでは、テストした PSP で一部のファイルを開けない問題が発生しました。エンジンが直接開く動画や補助ファイルは、NSA アーカイブの外に置いてください。
 
+## 移植ツール
+
+[アセットと動画の準備ガイド（英語）](docs/asset-preparation.md)では、宣言されたキャンバス寸法、従来のアルファ配置、スクリプト状態の分離、メディアの検証を説明します。`tools/pmf_prepare.py` はタイムスタンプに基づく再生時間の計画と、特定の Mps2Pmf 形式に限定した終了タイムスタンプの補正・入力検証を提供します。テストは合成データと Python 標準ライブラリだけを使用します。これらはホスト側の補助ツールであり、新しいランタイム機能、同梱エンコーダー、完全なゲーム変換器ではありません。
+
 ## ソースと謝辞
 
 - Ogapee 氏によるオリジナルの [ONScripter](https://onscripter.osdn.jp/)。元の著作権表示を保持しています。

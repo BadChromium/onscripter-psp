@@ -41,6 +41,15 @@ After building, run `python -m unittest discover -s tests`. Tests require Python
 
 For disc packaging, the accepted game used `genisoimage -xa -iso-level 3 -allow-lowercase -allow-multidot -omit-version-number`. Non-XA images caused selective file-open failures on the tested PSP. Keep directly opened movies/support files outside NSA archives.
 
+## Porting tools
+
+[Asset and movie preparation](docs/asset-preparation.md) covers declared image
+canvases, legacy alpha packing, script-state isolation and media validation.
+`tools/pmf_prepare.py` adds timestamp-based duration planning and guarded end-PTS
+correction for a specific Mps2Pmf profile. Its tests use synthetic data and need
+only Python's standard library. These are host-side helpers, not new runtime
+features, a bundled encoder or a complete game converter.
+
 ## Sources and credits
 
 - Original [ONScripter by Ogapee](https://onscripter.osdn.jp/), with original copyright notices preserved.
